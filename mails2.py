@@ -7,11 +7,13 @@ from os import walk
 import shutil
 
 startpath="C:\\work\\enron"
+
 startpath=os.path.join('C:','work','enron')
+startpath=os.path.join('/','home','mohamed','enron')
 privatepath="c:\\work\\enron\\1\\private"
-privatepath=os.path.join('C:','work','enron','1','private')
+privatepath=os.path.join(startpath,'1','private')
 workpath="c:\\work\\enron\\1\\work"
-privatepath=os.path.join('C:','work','enron','1','work')
+privatepath=os.path.join(startpath,'1','work')
 
 
 
