@@ -11,9 +11,9 @@ import shutil
 #startpath=os.path.join('C:','work','enron')
 startpath=os.path.join(os.sep,'home','mohamed','enron')
 privatepath="c:\\work\\enron\\1\\private"
-privatepath=os.path.join(startpath,'1','private')
+privatepath=os.path.join(startpath,'2','private')
 workpath="c:\\work\\enron\\1\\work"
-workpath=os.path.join(startpath,'1','work')
+workpath=os.path.join(startpath,'2','work')
 
 
 
@@ -25,10 +25,10 @@ private_words.append('personal')
 
 work_words=list()
 work_words.append('bankruptcy')
-work_words.append('gas')
-work_words.append('mexico')
-work_words.append('canada')
-work_words.append('budget')
+#work_words.append('gas')
+#work_words.append('mexico')
+#work_words.append('canada')
+#work_words.append('budget')
 for root, dirs, files in os.walk(startpath, topdown=False):
     #for name in files:
         #print(os.path.join(root, name))
