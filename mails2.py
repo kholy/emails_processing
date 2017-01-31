@@ -9,7 +9,7 @@ import shutil
 startpath="C:\\work\\enron"
 
 startpath=os.path.join('C:','work','enron')
-startpath=os.path.join('/','home','mohamed','enron')
+startpath=os.path.join(os.sep,'home','mohamed','enron')
 privatepath="c:\\work\\enron\\1\\private"
 privatepath=os.path.join(startpath,'1','private')
 workpath="c:\\work\\enron\\1\\work"
