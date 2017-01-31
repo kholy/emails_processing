@@ -29,7 +29,7 @@ work_words.append('gas')
 work_words.append('mexico')
 work_words.append('canada')
 work_words.append('budget')
-for root, dirs, files in os.walk("C:\\work\\enron", topdown=False):
+for root, dirs, files in os.walk(startpath, topdown=False):
     #for name in files:
         #print(os.path.join(root, name))
     for name in dirs:
