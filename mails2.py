@@ -7,6 +7,9 @@ from os import walk
 import shutil
 
 #startpath="C:\\work\\enron"
+def mymkdir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
 #startpath=os.path.join('C:','work','enron')
 startpath=os.path.join(os.sep,'home','mohamed','enron')
@@ -14,6 +17,10 @@ privatepath="c:\\work\\enron\\1\\private"
 privatepath=os.path.join(startpath,'2','private')
 workpath="c:\\work\\enron\\1\\work"
 workpath=os.path.join(startpath,'2','work')
+
+
+mymkdir(privatepath)
+mymkdir(workpath)
 
 
 
