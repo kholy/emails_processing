@@ -49,6 +49,7 @@ for root, dirs, files in os.walk(startpath, topdown=False):
                         #file=file+'.'
                         print(os.path.join(root2,file))
                         iprivate=iprivate+1
+                        print(iprivate)
                         src1=os.path.join(root2,file)
                         dst1=os.path.join(privatepath,str(iprivate))
                         print(src1)
@@ -64,6 +65,7 @@ for root, dirs, files in os.walk(startpath, topdown=False):
                         #file += '.'
                         print(os.path.join(root2,file))
                         iwork=iwork+1
+                        print(iwork)
                         src1=os.path.join(root2,file)
                         dst1=os.path.join(workpath,str(iwork))
                         print(src1)
